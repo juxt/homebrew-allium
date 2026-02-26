@@ -1,9 +1,8 @@
 class Allium < Formula
   desc "Checker and parser for the Allium specification language"
   homepage "https://github.com/juxt/allium-tools"
-  url "https://github.com/juxt/allium-tools/archive/a4cb936fc52a235c6308455ea70fa4607a67a493.tar.gz"
-  version "0.1.0"
-  sha256 "deace55df5b800cc34b972d06a3018acb40b9655a8c482b3f951bdc62d7cb11f"
+  url "https://github.com/juxt/allium-tools/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "27d3f9c6974fec78a754a8030987b7b08092aca807f5d1023426411eede4e778"
   license "MIT"
 
   depends_on "rust" => :build
