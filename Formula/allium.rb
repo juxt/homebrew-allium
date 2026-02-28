@@ -1,7 +1,7 @@
 class Allium < Formula
   desc "Checker and parser for the Allium specification language"
   homepage "https://github.com/juxt/allium-tools"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
