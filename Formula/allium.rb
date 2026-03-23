@@ -1,28 +1,28 @@
 class Allium < Formula
   desc "Checker and parser for the Allium specification language"
   homepage "https://github.com/juxt/allium-tools"
-  version "2.0.0"
+  version "3.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-aarch64-apple-darwin.tar.gz"
-      sha256 "4c0d1ced48f9cb77b00388542860b5779c39340e9fcdb288e6bb018340accf0c"
+      sha256 "5b193c5f1ca896fa21c0d1a542d24333934a598678ad1d104dc4312ebfc7217d"
     end
     if Hardware::CPU.intel?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-x86_64-apple-darwin.tar.gz"
-      sha256 "ff90107733ce22c43099bc4cfb0d1c9770758244ef62528b36d02c2d75000ce8"
+      sha256 "1988024c73f3f20bd99dc6fe271e4cab88490ef4f4070b37630881f50bedce0a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "552070d3447d00c030a71a1bd47f6bfc907513969a0b377782f24205f9dde9e3"
+      sha256 "977c3d631fc4c7e8eff98c00d17ae1495b8ec767c5959c126ec7de01cbaf0f6b"
     end
     if Hardware::CPU.intel?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6866397ffe0c2d23c8ed078ee477291076f5eceaa7b7981ee3ef44f24163dc52"
+      sha256 "4d0a557e7549132957174ca775f2ea6cace145bcd9ee587d6c0afcc8e060e7d6"
     end
   end
 
