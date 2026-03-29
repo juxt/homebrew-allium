@@ -7,22 +7,22 @@ class Allium < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-aarch64-apple-darwin.tar.gz"
-      sha256 "60e4b6f25d8010c38043e526b88130f292be02b192c5e742d976b0ffa0eeec2b"
+      sha256 "373ab83a6729d2084d1316393dd6d52b4532eb532d9915888b85712f7a0c6eee"
     end
     if Hardware::CPU.intel?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-x86_64-apple-darwin.tar.gz"
-      sha256 "604c1d394db2ceb62fd25e111a460f49924dd0e2b95cbf2778c9276087be90d5"
+      sha256 "1d13dc213c7015a84c29baf140aae35aa2e1c8749d34078b916006e5a965f286"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "01f39405080af40832e746846119c7d08621674669471ab7bae0edb2f3b04d25"
+      sha256 "1534749bae0d58e3b3ef1d3b99b69f5082f56c5f8314cd23ef8e0a02d55e209f"
     end
     if Hardware::CPU.intel?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "62691037f6b84752398683bd0b7f4a79c2075d53c62172ae8ebf960e32112155"
+      sha256 "7d322faffd8349bf6171379c24499efefdc1d7fd4d018615414e899457942b7e"
     end
   end
 
