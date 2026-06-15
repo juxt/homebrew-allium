@@ -11,7 +11,7 @@ class Allium < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-x86_64-apple-darwin.tar.gz"
-      sha256 ""
+      sha256 "439f31063305f0b7af6b2847610e88ce2bcfe90d2a3acbfa1e8708000f2219d1"
     end
   end
 
@@ -22,7 +22,7 @@ class Allium < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/juxt/allium-tools/releases/download/v#{version}/allium-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 ""
+      sha256 "312cf61ea1d98e02c145a803684e62885ec32bd8b0db72a7e5861056ffc7c4fa"
     end
   end
 
